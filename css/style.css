@@ -274,7 +274,7 @@ form input:focus-visible {
   }
 
   .hero {
-    grid-area: "hero";
+    grid-area: hero;
     text-align: left;
     max-width: 55ch;
   }
@@ -286,7 +286,7 @@ form input:focus-visible {
   }
 
   .hero-action {
-    grid-area: "hero-action";
+    grid-area: hero-action;
     min-width: 30rem;
   }
 

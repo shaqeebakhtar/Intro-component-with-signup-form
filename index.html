@@ -42,24 +42,44 @@
               then $20/mo. thereafter
             </p>
           </div>
-          <form action="#">
+          <form id="form" action="/">
             <div class="input-wrap">
-              <input type="text" placeholder="First Name" required />
-              <span class="error-message">First Name cannot be empty</span>
+              <input
+                id="fname"
+                type="text"
+                name="fname"
+                placeholder="First Name"
+              />
+              <span class="error-message"></span>
             </div>
             <div class="input-wrap">
-              <input type="text" placeholder="Last Name" required />
-              <span class="error-message">Last Name cannot be empty</span>
+              <input
+                id="lname"
+                type="text"
+                name="lname"
+                placeholder="Last Name"
+              />
+              <span class="error-message"></span>
             </div>
             <div class="input-wrap">
-              <input type="email" placeholder="Email Address" required />
-              <span class="error-message">Looks like this is not an email</span>
+              <input
+                id="email"
+                type="text"
+                name="email"
+                placeholder="Email Address"
+              />
+              <span class="error-message email-error"></span>
             </div>
             <div class="input-wrap">
-              <input type="password" placeholder="Password" required />
-              <span class="error-message">Password cannot be empty</span>
+              <input
+                id="password"
+                type="password"
+                name="password"
+                placeholder="Password"
+              />
+              <span class="error-message"></span>
             </div>
-            <button class="btn">Claim your free trial</button>
+            <button type="submit" class="btn">Claim your free trial</button>
             <p class="agree-tnc">
               By clicking the button, you are agreeing to our
               <a href="#">Terms and Services</a>
