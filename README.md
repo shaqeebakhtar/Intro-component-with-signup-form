@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- Solution URL: [Github](https://github.com/shaqeebakhtar/Intro-component-with-signup-form)
+- Live Site URL: [Netlify](https://signup-form-with-js-validation.netlify.app/)
 
 ## My process
 
@@ -39,10 +39,9 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 
-<!-- ### Useful resources
+### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept. -->
+- [Email Validation using JS](https://www.w3resource.com/javascript/form/email-validation.php) - Refer to this if you don't know how to validate an email in JS without using type="email" in HTML. We can easily validate an email using regex expressions in Javascript.
 
 ## Author
 
